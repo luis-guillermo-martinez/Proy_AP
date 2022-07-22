@@ -1,5 +1,7 @@
 package com.lgm.LGM_Portfolio.Security.Entity;
 
+
+
 import com.lgm.LGM_Portfolio.Security.Enums.RolNombre;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
@@ -9,22 +11,16 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.validation.constraints.NotNull;
 
-
-
 @Entity
-
 public class Rol {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-
     @NotNull
     @Enumerated(EnumType.STRING)
     private RolNombre rolNombre;
     
-    //Contructor
-    
+    //Constructor
     public Rol() {
     }
 
@@ -32,7 +28,7 @@ public class Rol {
         this.rolNombre = rolNombre;
     }
     
-// getters y Setters
+    //Getter y Setter
 
     public int getId() {
         return id;

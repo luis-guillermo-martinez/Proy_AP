@@ -3,14 +3,13 @@ package com.lgm.LGM_Portfolio.Security.Dto;
 
 import javax.validation.constraints.NotBlank;
 
-
 public class LoginUsuario {
-    @NotBlank 
+    @NotBlank
     private String nombreUsuario;
     @NotBlank
     private String password;
     
-    // Getter y Setters 
+    //Getter & Setter
 
     public String getNombreUsuario() {
         return nombreUsuario;

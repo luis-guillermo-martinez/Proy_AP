@@ -1,4 +1,4 @@
-<div class="row">   
+<div class="row">
     <div class="container">
         <div class="logo">
             <img src="../../../assets/APLogo.png" alt="" id="logoAP" >
@@ -11,10 +11,11 @@
                 <a href=""><img src="../../../assets/instagram.png" alt="instagram"></a>
                 <a href=""><img src="../../../assets/linkedin.png" alt="linkedin"></a>
                 <a href=""><img src="../../../assets/twitter.png" alt="twitter"></a>
-                <button type="button" class="btn btn-outline-light" (click)="login()">INGRESO</button>
+                <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">INGRESO</button>
+                <button type="button" class="btn btn-outline-light" (click)="onLogOut()"*ngIf="isLogged">CERRAR SESION</button>
             </div>  
         </div>
     </div>
-</div>
+
 
 

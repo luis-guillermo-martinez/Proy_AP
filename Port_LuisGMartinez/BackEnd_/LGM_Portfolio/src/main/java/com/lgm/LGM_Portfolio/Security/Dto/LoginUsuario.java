@@ -3,6 +3,10 @@ package com.lgm.LGM_Portfolio.Security.Dto;
 
 import javax.validation.constraints.NotBlank;
 
+/**
+ *
+ * @author Usuario
+ */
 public class LoginUsuario {
     @NotBlank
     private String nombreUsuario;

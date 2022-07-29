@@ -4,7 +4,10 @@ package com.lgm.LGM_Portfolio.Security.Dto;
 import java.util.HashSet;
 import java.util.Set;
 
-
+/**
+ *
+ * @author Usuario
+ */
 public class NuevoUsuario {
     private String nombre;
     private String nombreUsuario;

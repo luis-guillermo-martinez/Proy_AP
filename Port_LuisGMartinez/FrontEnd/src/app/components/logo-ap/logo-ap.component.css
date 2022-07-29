@@ -4,20 +4,20 @@
     align-items: center;
 }
 .redes{
-    margin-right: 0.5em;
+    margin-right: 0.8em;
 }
 #logoAP{
     width: 150px;
 }
 img{
-    width: 50px;
+    width: 40px;
 }
 .btn{
     border-width: medium;
 }
 
 /*--- Para la vista de celular ---*/
-@media (max-width: 575px){
+@media (main-width: 575px){
     .container{
         flex-direction: column;
     }
@@ -27,6 +27,6 @@ img{
         align-items: center;
     }
     .redes img{
-        margin: 0.2em;
+        margin: 0.3em;
     }
 }

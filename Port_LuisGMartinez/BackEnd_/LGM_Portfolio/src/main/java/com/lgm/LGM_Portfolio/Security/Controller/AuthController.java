@@ -1,6 +1,5 @@
 package com.lgm.LGM_Portfolio.Security.Controller;
 
-
 import com.lgm.LGM_Portfolio.Security.Dto.JwtDto;
 import com.lgm.LGM_Portfolio.Security.Dto.LoginUsuario;
 import com.lgm.LGM_Portfolio.Security.Dto.NuevoUsuario;

@@ -3,18 +3,16 @@ package com.lgm.LGM_Portfolio.Interface;
 import com.lgm.LGM_Portfolio.Entity.Persona;
 import java.util.List;
 
-
 public interface IPersonaService {
-    // Traer una listas de personas
-    public List <Persona> getPersona();
+    //Traer una lista de personas
+    public List<Persona> getPersona();
     
-    // Gruardar un objeto del Tipo Persona
+    //Guardar un objeto de tipo Persona
     public void savePersona(Persona persona);
     
-    //Eliminar un Objeto pero por ID
+    //Eliminar un objeto pero lo buscamos por ID
     public void deletePersona(Long id);
     
-    // Buscar una persona por ID
-    public Persona findPersona (Long id);
-    
+    //Buscar una persona por ID
+    public Persona findPersona(Long id);
 }

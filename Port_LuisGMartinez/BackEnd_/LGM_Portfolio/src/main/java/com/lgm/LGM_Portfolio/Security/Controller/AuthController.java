@@ -1,4 +1,9 @@
 package com.lgm.LGM_Portfolio.Security.Controller;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 
 import com.lgm.LGM_Portfolio.Security.Dto.JwtDto;
 import com.lgm.LGM_Portfolio.Security.Dto.LoginUsuario;
@@ -30,7 +35,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin
+@CrossOrigin(origins = "https://portfolio-lgm-2469a.web.app")
 public class AuthController {
     @Autowired
     PasswordEncoder passwordEncoder;

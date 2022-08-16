@@ -12,18 +12,19 @@ public class Experiencia {
     private int id;
     private String nombreE;
     private String descripcionE;
+    private String fechaE;
     
-    //Constructores
+//Constructores
+
+    public Experiencia(String nombreE, String descripcionE, String fechaE) {
+        this.nombreE = nombreE;
+        this.descripcionE = descripcionE;
+        this.fechaE = fechaE;
+    }
 
     public Experiencia() {
     }
-
-    public Experiencia(String nombreE, String descripcionE) {
-        this.nombreE = nombreE;
-        this.descripcionE = descripcionE;
-    }
-    
-    //Getters and setters
+// GET y SET
 
     public int getId() {
         return id;
@@ -48,5 +49,14 @@ public class Experiencia {
     public void setDescripcionE(String descripcionE) {
         this.descripcionE = descripcionE;
     }
+
+    public String getFechaE() {
+        return fechaE;
+    }
+
+    public void setFechaE(String fechaE) {
+        this.fechaE = fechaE;
+    }
+    
     
 }
